@@ -91,7 +91,7 @@ typedef struct hal_lp_timer_irq_s
 void hal_lp_timer_init( hal_lp_timer_id_t id );
 
 /*!
- * \brief Start the provided timer objet for the given time
+ * \brief Start the provided timer object for the given time
  *
  * \param [in] id           Low power timer id
  * \param [in] milliseconds Number of milliseconds
@@ -100,7 +100,7 @@ void hal_lp_timer_init( hal_lp_timer_id_t id );
 void hal_lp_timer_start( hal_lp_timer_id_t id, const uint32_t milliseconds, const hal_lp_timer_irq_t* tmr_irq );
 
 /*!
- * \brief Start the provided timer objet for the given time
+ * \brief Stop the provided timer object
  *
  * \param [in] id Low power timer id
  */
